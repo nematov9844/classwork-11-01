@@ -16,7 +16,7 @@ nav{
     align-items: center;
 }
 nav ul{
-    display: flex;
+    display: flex; 
     gap: 30px;
 }
 nav li a{
@@ -63,4 +63,25 @@ input{
 
 input::placeholder{
     color: red;
+}
+
+
+.shadows{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.shadow{
+    width: 30%;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px inset aqua;
+}
+.shadow h1{
+    font-size: 30px;
+    color: rgb(15, 189, 189);
+    text-shadow: 5px 5px  5px aqua ;
 }
