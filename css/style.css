@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav li a{
+   text-decoration: none;
+   transition: all 0.3s linear;
+   color: blue;
+}
+nav li a:hover{
+    color: white;
+    background-color: crimson;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav ul a:active{
+    background-color: green;
+}
+section{
+    padding: 15px;
+}
+section p:nth-child(1){
+   margin: 20px 0;
+   font-size: 35px;
+   text-align: center;
+}
+section p:nth-child(2){
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+input{
+    background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 20px;
+    outline: none;
+    caret-color: blue;
+    
+    
+}
+
+input::placeholder{
+    color: red;
+}
